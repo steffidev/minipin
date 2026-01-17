@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minipin</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+  <header class="header">
+    <div class="barra-arriba">
+      <p>Envío gratis desde 60€ | Contacto: info@minipin.com</p>
+    </div>
+    <nav class="barra-menu">
+      <div>
+        <a href="index.html">
+          <img class="logo" src="images/logo2.png" alt="imagen del logo"></a>
+      </div>
+      <menu class="menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="productos.html">Arneses</a></li>
+        <li><a href="#">Correas</a></li>
+        <li><a href="#">Ropa</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </menu>
+      <div class="login">
+        <a href="login.html">Iniciar sesión</a>
+        <a href="registro.html">Registrarse</a>
+      </div>
+    </nav>
+  </header>
+
+  <div class="contacto">
+
+
+
+    <form class="form centrado" method="post">
+
+      <h2>CONTÁCTANOS</h2>
+
+      <label for="name">Nombre:</label>
+      <input type="text" id="name" name="user_name" placeholder="Escribe aquí tu nombre">
+      <br>
+
+      <label for="consulta">Tipo de consulta:</label>
+
+      <select name="consulta" id="consulta" required>
+        <option value="" selected disabled>Selecciona una opción</option>
+        <option value="barcelona">Dudas</option>
+        <option value="girona">Devoluciones</option>
+        <option value="lleida">Compras</option>
+        <option value="tarragona">Envío</option>
+        <option value="tarragona">Stock disponible</option>
+      </select>
+        <br>
+
+        <label for="msg">Mensaje:</label>
+        <textarea id="msg" name="user_message" placeholder="Escribe aquí tu mensaje"></textarea>
+
+        <br>
+        <input type="checkbox" name="terminos" id="terminos" required>
+        <br>
+        <span>Acepto los términos y condiciones</span>
+        <br>
+
+
+        <br>
+        <div>
+          <button type="submit">Enviar mensaje</button>
+        </div>
+    </form>
+
+    <h2>DÓNDE ESTAMOS</h2>
+
+
+
+    <div class="direccion">
+
+      <h3>Dirección:</h3>
+      <p>C/ América, 20.
+        08228 Terrassa (Barcelona)</p>
+      <h3>Teléfono de contacto:</h3>
+      <span>600.000.000</span>
+      
+    </div>
+    <div class="mapa">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d23891.274720163823!2d2.039434428588867!3d41.53873344897983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1767364697213!5m2!1ses!2ses"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+
+  </div>
+
+  <footer class="footer">
+    <p>© 2025 Minipin Store • Síguenos en Instagram • Facebook</p>
+  </footer>
+
+</body>
+
+</html>

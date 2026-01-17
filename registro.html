@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minipin</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+  <header class="header">
+    <div class="barra-arriba">
+      <p>Envío gratis desde 60€ | Contacto: info@minipin.com</p>
+    </div>
+    <nav class="barra-menu">
+      <div>
+        <a href="index.html">
+                     <img class="logo" src="images/logo2.png" alt="imagen del logo"></a>
+      </div>
+      <menu class="menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="productos.html">Arneses</a></li>
+        <li><a href="#">Correas</a></li>
+        <li><a href="#">Ropa</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </menu>
+      <div class="login">
+        <a href="login.html">Iniciar sesión</a>
+        <a href="registro.html">Registrarse</a>
+      </div>
+    </nav>
+  </header>
+
+
+  <form class="form centrado" method="post" enctype="multipart/form-data"> 
+
+    <h2>CREAR CUENTA</h2>
+
+    <label>Nombre:</label>
+    <input type="text" id="nombre" name="name" placeholder="Escribe aquí tu nombre">
+
+    <br>
+
+    <label>Apellidos:</label>
+    <input type="text" id="apellido" name="apellido" placeholder="Escribe aquí tus apellidos">
+
+    <br>
+
+    <label>Email:</label>
+    <input type="text" id="email" name="user_name" placeholder="Escribe aquí tu email">
+
+    <br>
+
+
+    <label>Usuario:</label>
+    <input type="text" id="user" name="user_name" placeholder="Nombre de usuario o email">
+
+    <br>
+
+    <label>Contraseña:</label>
+    <input type="password" name="password" placeholder="Escribe aquí tu contraseña">
+
+    <br>
+
+    <label>Confirma la contraseña:</label>
+    <input type="password" name="password" placeholder="Repite la contraseña">
+    <br>
+
+
+    <label>Provincia:</label>
+    <select name="provincia" id="provincia" required>
+      <option value="" selected disabled>Selecciona una opción</option>
+
+      <optgroup label="Cataluña">
+        <option value="barcelona">Barcelona</option>
+        <option value="girona">Girona</option>
+        <option value="lleida">Lleida</option>
+        <option value="tarragona">Tarragona</option>
+      </optgroup>
+
+      <optgroup label="Comunidad de Madrid">
+        <option value="madrid">Madrid</option>
+      </optgroup>
+
+      <optgroup label="Comunidad Valenciana">
+        <option value="valencia">Valencia</option>
+        <option value="alicante">Alicante</option>
+        <option value="castellon">Castellón</option>
+      </optgroup>
+
+      <optgroup label="Andalucía">
+        <option value="almeria">Almería</option>
+        <option value="sevilla">Sevilla</option>
+        <option value="malaga">Málaga</option>
+        <option value="granada">Granada</option>
+        <option value="cordoba">Córdoba</option>
+        <option value="jaen">Jaén</option>
+        <option value="cadiz">Cádiz</option>
+        <option value="huelva">Huelva</option>
+      </optgroup>
+
+    </select>
+    <br>
+    <label>Fecha de nacimiento</label>
+    <input type="date" name="date">
+    <br>
+
+    <label>Sube aquí tu foto</label>
+    <input type="file" id="file" name="file">
+    <br>
+
+    <label for="color">Color favorito</label>
+    <input type="color" name="color" id="color" value="#fb8a99">
+    <br>
+
+    <input type="checkbox" name="terminos" id="terminos" required>
+    <br>
+
+    <span>Acepto los términos y condiciones</span>
+    <br>
+
+
+
+
+    <br>
+    <div>
+      <button type="submit">Crear cuenta</button>
+    </div>
+    <br>
+     <div class="botonenlace">
+    <a href="login.html">Ya tengo una cuenta</a>
+  </div>
+  </form>
+  
+ 
+
+  <footer class="footer">
+    <p>© 2025 Minipin Store • Síguenos en Instagram • Facebook</p>
+  </footer>
+
+</body>
+
+</html>
